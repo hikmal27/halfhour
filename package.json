@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=development postcss ./src/styles.css -o ./dist/assets/css/styles.css -w"
+    "dev": "cross-env NODE_ENV=development postcss ./src/styles.css -o ./dist/assets/css/styles.css -w",
+    "build": "cross-env NODE_ENV=production postcss ./src/styles.css -o ./dist/assets/css/styles.css"
   },
   "author": "halfhour",
   "license": "ISC",
